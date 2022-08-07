@@ -20,3 +20,21 @@ export const Text = styled(NavText)`
     font-size: ${(props)=>props.fontSize ? props.fontSize  : ".9em"
 };    
 `
+
+export const Wrapper = styled(NavItemWrapper)`
+    display: flex;
+    flex-direction: ${(props)=>props.flexDirection ?  props.flexDirection  : "column"};
+    align-items:  ${(props)=>props.alignItems ? props.alignItems  : "flex-start"};
+    padding: .1em;
+    cursor:pointer;
+    border:1px solid #131A22;
+
+    &:hover{
+        border:1px solid #ffffff;
+        border-radius: .2em;
+    }
+     @media(max-width:850px){
+        display: none;
+    }
+
+`
