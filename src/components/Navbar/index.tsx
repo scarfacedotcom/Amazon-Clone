@@ -9,9 +9,9 @@ import {
     Select,
     SearchIconWrapper
 } from "./styles"
+
 import { ShoppingCartOutlined, SearchOutlined, ArrowDropDown, RoomOutlined } from '@material-ui/icons';
 import logo from "../assets/logo.png"
-import flag from "../assets/flag.png"
 
 const Navbar:React.FC = () => {
     return (
