@@ -7,6 +7,6 @@ interface Props{
 }
 export const PageText:React.FC <Props> = ({className, children}) => {
     return (
-       <span className={className}>{children}</span>
+        <span className={className} >{children}</span>
     )
 }
