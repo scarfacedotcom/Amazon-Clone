@@ -18,13 +18,14 @@ import {
 } from "@material-ui/icons";
 import logo from "../assets/logo.png";
 
+
 const Navbar: React.FC = () => {
   return (
     <>
       <Container>
         <Logo src={logo} />
 
-        <Wrapper flexDirection="row" alignItems="center">
+        <Wrapper>
           <RoomOutlined />
 
           <Wrapper>

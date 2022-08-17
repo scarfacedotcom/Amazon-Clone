@@ -2,6 +2,8 @@ import battery from "../assets/cell-battery.jpg"
 import headset from "../assets/headset.jpg"
 import screen from "../assets/screen-protector.jpg"
 
+
+
 export  const departmentList = [
     "Electronics",
     "Cell Phones & Accessories",
